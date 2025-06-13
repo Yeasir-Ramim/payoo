@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payoo</title>
+
+  <!-- Tailwind + DaisyUI -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.0/dist/full.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="bg-base-200 min-h-screen flex items-center justify-center">
+
+  <div class="mockup-phone border-primary">
+    <div class="camera"></div>
+    <div class="display bg-base-200">
+
+      <!-- Login Section -->
+      <div class="flex items-center justify-center h-full p-4">
+        <div class="card w-full max-w-sm bg-base-100 shadow-2xl">
+          <div class="card-body">
+            <h2 class="text-center text-2xl font-bold mb-4">Login</h2>
+            <label class="label">
+              <span class="label-text">Phone Nummber</span>
+            </label>
+            <input id="phone-number" type="email" placeholder="Enter your phonenumber" class="input input-bordered w-full" />
+
+            <label class="label mt-2">
+              <span class="label-text">4 digit pin</span>
+            </label>
+            <input id="pin-number" type="password" placeholder="Pin" required autocomplete="on" class="input input-bordered w-full" />
+
+            <label class="label">
+              <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+            </label>
+
+            <button id="btnID" class="btn btn-neutral mt-4 w-full">Login</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="js/login.js"></script>
+</body>
+
+</html>
